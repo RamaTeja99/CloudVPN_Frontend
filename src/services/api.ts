@@ -1,7 +1,7 @@
 import axios from "axios";
 import Cookies from "js-cookie";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://cloudvpn-backend.onrender.com/api";
 
 // Automatically attach JWT
 axios.interceptors.request.use(cfg => {
